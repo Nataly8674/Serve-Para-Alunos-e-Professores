@@ -2,7 +2,6 @@ package com.seducapp.gerenciadordeaulas.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
@@ -168,11 +167,4 @@ public class Usuario implements UserDetails, Serializable {
     public boolean isEnabled() {
         return true;
     }
-
-	public UserDetails orElseThrow(Object object) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
 }
